@@ -1,0 +1,14 @@
+name: Ping Render App
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Ogni 5 minuti
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send HTTP Request
+        run: |
+          curl -s https://ai-sports-news-summarizer-and-auto-poster.onrender.com > /dev/null
