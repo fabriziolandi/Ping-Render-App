@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Send HTTP Request
         run: |
-          curl -s https://ai-sports-news-summarizer-and-auto-poster.onrender.com > /dev/null
+          curl -s https://project-1-1tei.onrender.com > /dev/null
