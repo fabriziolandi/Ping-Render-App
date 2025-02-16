@@ -12,3 +12,4 @@ jobs:
       - name: Send HTTP Request
         run: |
           curl -s https://project-1-1tei.onrender.com > /dev/null
+          curl -s https://github.com/fabriziolandi/highlights > /dev/null
